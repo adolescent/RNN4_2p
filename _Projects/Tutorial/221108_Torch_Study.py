@@ -7,7 +7,7 @@ import torch
 import numpy as np
 x = torch.rand(5, 3)
 print(x)
-torch.cuda.is_available()
+print(f'Cuda aviable: {torch.cuda.is_available()}')
 
 print('This script runs well.')
 
